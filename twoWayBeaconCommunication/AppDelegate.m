@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDataManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [AppDataManager sharedManager].UUID = @"2F7EF300-EFB4-4122-A4D8-0C88E9F74E6B";
     return YES;
 }
 

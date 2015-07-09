@@ -14,6 +14,17 @@
 		0902B6AD1B4D31AB00BF2751 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0902B6AC1B4D31AB00BF2751 /* Images.xcassets */; };
 		0902B6B01B4D31AB00BF2751 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0902B6AE1B4D31AB00BF2751 /* LaunchScreen.xib */; };
 		0902B6BC1B4D31AB00BF2751 /* twoWayBeaconCommunicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0902B6BB1B4D31AB00BF2751 /* twoWayBeaconCommunicationTests.m */; };
+		09445E4F1B4D39AD00DEA763 /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445E4E1B4D39AD00DEA763 /* EmitterViewController.m */; };
+		09445E521B4D39B600DEA763 /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445E511B4D39B600DEA763 /* ScannerViewController.m */; };
+		09445E541B4D3C9A00DEA763 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09445E531B4D3C9A00DEA763 /* CoreBluetooth.framework */; };
+		09445E581B4D3CCE00DEA763 /* iBeaconEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445E571B4D3CCE00DEA763 /* iBeaconEmitter.m */; };
+		09445E5B1B4D3CDB00DEA763 /* iBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445E5A1B4D3CDB00DEA763 /* iBeaconScanner.m */; };
+		09445E5D1B4D406000DEA763 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09445E5C1B4D406000DEA763 /* CoreLocation.framework */; };
+		096C945E1B4E40C3002FAF35 /* AppDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C945D1B4E40C3002FAF35 /* AppDataManager.m */; };
+		096C94611B4E412B002FAF35 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C94601B4E412B002FAF35 /* LaunchViewController.m */; };
+		096C94681B4EBC44002FAF35 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096C94671B4EBC44002FAF35 /* MultipeerConnectivity.framework */; };
+		096C946B1B4EDA0F002FAF35 /* MessageReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C946A1B4EDA0F002FAF35 /* MessageReceiver.m */; };
+		096C946F1B4EDA23002FAF35 /* MessageSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C946E1B4EDA23002FAF35 /* MessageSender.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,26 @@
 		0902B6B51B4D31AB00BF2751 /* twoWayBeaconCommunicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twoWayBeaconCommunicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0902B6BA1B4D31AB00BF2751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0902B6BB1B4D31AB00BF2751 /* twoWayBeaconCommunicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoWayBeaconCommunicationTests.m; sourceTree = "<group>"; };
+		09445E4D1B4D39AD00DEA763 /* EmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		09445E4E1B4D39AD00DEA763 /* EmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		09445E501B4D39B600DEA763 /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = "<group>"; };
+		09445E511B4D39B600DEA763 /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = "<group>"; };
+		09445E531B4D3C9A00DEA763 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		09445E561B4D3CCE00DEA763 /* iBeaconEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeaconEmitter.h; sourceTree = "<group>"; };
+		09445E571B4D3CCE00DEA763 /* iBeaconEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBeaconEmitter.m; sourceTree = "<group>"; };
+		09445E591B4D3CDB00DEA763 /* iBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeaconScanner.h; sourceTree = "<group>"; };
+		09445E5A1B4D3CDB00DEA763 /* iBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBeaconScanner.m; sourceTree = "<group>"; };
+		09445E5C1B4D406000DEA763 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		096C945C1B4E40C3002FAF35 /* AppDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataManager.h; sourceTree = "<group>"; };
+		096C945D1B4E40C3002FAF35 /* AppDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataManager.m; sourceTree = "<group>"; };
+		096C945F1B4E412B002FAF35 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		096C94601B4E412B002FAF35 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		096C94621B4EBB50002FAF35 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		096C94671B4EBC44002FAF35 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		096C94691B4EDA0F002FAF35 /* MessageReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageReceiver.h; sourceTree = "<group>"; };
+		096C946A1B4EDA0F002FAF35 /* MessageReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageReceiver.m; sourceTree = "<group>"; };
+		096C946D1B4EDA23002FAF35 /* MessageSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSender.h; sourceTree = "<group>"; };
+		096C946E1B4EDA23002FAF35 /* MessageSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSender.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096C94681B4EBC44002FAF35 /* MultipeerConnectivity.framework in Frameworks */,
+				09445E5D1B4D406000DEA763 /* CoreLocation.framework in Frameworks */,
+				09445E541B4D3C9A00DEA763 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,10 @@
 		0902B6931B4D31AB00BF2751 = {
 			isa = PBXGroup;
 			children = (
+				096C94671B4EBC44002FAF35 /* MultipeerConnectivity.framework */,
+				096C94621B4EBB50002FAF35 /* GameKit.framework */,
+				09445E5C1B4D406000DEA763 /* CoreLocation.framework */,
+				09445E531B4D3C9A00DEA763 /* CoreBluetooth.framework */,
 				0902B69E1B4D31AB00BF2751 /* twoWayBeaconCommunication */,
 				0902B6B81B4D31AB00BF2751 /* twoWayBeaconCommunicationTests */,
 				0902B69D1B4D31AB00BF2751 /* Products */,
@@ -85,6 +123,13 @@
 				0902B6A41B4D31AB00BF2751 /* AppDelegate.m */,
 				0902B6A61B4D31AB00BF2751 /* ViewController.h */,
 				0902B6A71B4D31AB00BF2751 /* ViewController.m */,
+				096C945F1B4E412B002FAF35 /* LaunchViewController.h */,
+				096C94601B4E412B002FAF35 /* LaunchViewController.m */,
+				09445E4D1B4D39AD00DEA763 /* EmitterViewController.h */,
+				09445E4E1B4D39AD00DEA763 /* EmitterViewController.m */,
+				09445E501B4D39B600DEA763 /* ScannerViewController.h */,
+				09445E511B4D39B600DEA763 /* ScannerViewController.m */,
+				09445E551B4D3CB600DEA763 /* Classes */,
 				0902B6A91B4D31AB00BF2751 /* Main.storyboard */,
 				0902B6AC1B4D31AB00BF2751 /* Images.xcassets */,
 				0902B6AE1B4D31AB00BF2751 /* LaunchScreen.xib */,
@@ -117,6 +162,23 @@
 				0902B6BA1B4D31AB00BF2751 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09445E551B4D3CB600DEA763 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09445E561B4D3CCE00DEA763 /* iBeaconEmitter.h */,
+				09445E571B4D3CCE00DEA763 /* iBeaconEmitter.m */,
+				09445E591B4D3CDB00DEA763 /* iBeaconScanner.h */,
+				09445E5A1B4D3CDB00DEA763 /* iBeaconScanner.m */,
+				096C945C1B4E40C3002FAF35 /* AppDataManager.h */,
+				096C945D1B4E40C3002FAF35 /* AppDataManager.m */,
+				096C94691B4EDA0F002FAF35 /* MessageReceiver.h */,
+				096C946A1B4EDA0F002FAF35 /* MessageReceiver.m */,
+				096C946D1B4EDA23002FAF35 /* MessageSender.h */,
+				096C946E1B4EDA23002FAF35 /* MessageSender.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +230,11 @@
 				TargetAttributes = {
 					0902B69B1B4D31AB00BF2751 = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					0902B6B41B4D31AB00BF2751 = {
 						CreatedOnToolsVersion = 6.4;
@@ -219,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09445E581B4D3CCE00DEA763 /* iBeaconEmitter.m in Sources */,
+				096C945E1B4E40C3002FAF35 /* AppDataManager.m in Sources */,
+				096C94611B4E412B002FAF35 /* LaunchViewController.m in Sources */,
+				09445E5B1B4D3CDB00DEA763 /* iBeaconScanner.m in Sources */,
+				096C946B1B4EDA0F002FAF35 /* MessageReceiver.m in Sources */,
 				0902B6A81B4D31AB00BF2751 /* ViewController.m in Sources */,
+				09445E4F1B4D39AD00DEA763 /* EmitterViewController.m in Sources */,
+				096C946F1B4EDA23002FAF35 /* MessageSender.m in Sources */,
 				0902B6A51B4D31AB00BF2751 /* AppDelegate.m in Sources */,
 				0902B6A21B4D31AB00BF2751 /* main.m in Sources */,
+				09445E521B4D39B600DEA763 /* ScannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +422,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = twoWayBeaconCommunication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +434,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = twoWayBeaconCommunication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +495,7 @@
 				0902B6C11B4D31AB00BF2751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0902B6C21B4D31AB00BF2751 /* Build configuration list for PBXNativeTarget "twoWayBeaconCommunicationTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +504,7 @@
 				0902B6C41B4D31AB00BF2751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
